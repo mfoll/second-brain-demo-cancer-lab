@@ -1,0 +1,37 @@
+---
+type: Person
+related_to:
+  - "[[pancreatic-cfdna-mrd-study]]"
+  - "[[patient-advisory-meeting-2025-10-22]]"
+_organized: true
+---
+
+# Anna Sorensen
+
+Patient advocate with a pancreatic cancer charity, involved in the [[pancreatic-cfdna-mrd-study|Pancreatic cfDNA MRD Study]] since 2025-09 as its patient and public involvement contact. External; no affiliation hub in this vault.
+
+## Role
+
+- Reviewed the St Aldric patient information leaflet for the follow-up sampling amendment ([[st-aldric-patient-information-leaflet-v2]]).
+- Chaired the patient advisory meeting of 2025-10-22 with four patients and carers ([[patient-advisory-meeting-2025-10-22]]).
+- Reads the plain-language summary of the [[mrd-manuscript|MRD Manuscript]] and will co-write the lay summary of the revision.
+
+## How We Work Together
+
+Contact by email through [[priya-raman|Priya Raman]], who also handles honoraria under the institute's patient involvement policy. Anna asks for material at least two weeks before a meeting and in plain language; she will send back anything with unexplained abbreviations. She has been clear that patients want to know what an early molecular signal would mean for them in practice, not only that it exists. That point shaped the open question [[what-lead-time-over-imaging-is-clinically-meaningful]] and the decision to report false-positive rates prominently.
+
+## Background
+
+Anna has worked with several pancreatic cancer research groups through the charity and sits on its research grants panel. She brings a carer's perspective and a good sense of what other studies have promised patients and not delivered. She has asked the group not to use "cure" or "all clear" in any patient-facing text, and to explain clonal hematopoiesis without implying that it is a disease in its own right ([[clonal-hematopoiesis]]). She also suggested that the next patient advisory meeting include someone who had a false-positive scan, to keep false alarms concrete.
+
+## Current Threads
+
+- Lay summary for the revised manuscript.
+- Input on how to describe a positive MRD result in any future interventional study.
+
+Practical note: Anna prefers a short call before any written review, to hear the context first.
+
+## Links
+
+- [[samuel-okoye]]
+- [[clonal-hematopoiesis]]

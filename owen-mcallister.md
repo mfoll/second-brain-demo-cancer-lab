@@ -1,0 +1,37 @@
+---
+type: Person
+related_to:
+  - "[[postdoc-hiring-2026]]"
+  - "[[colorectal-metastasis-atlas]]"
+  - "[[owen-mcallister-offer-2026-09-25]]"
+_organized: true
+---
+
+# Owen McAllister
+
+Incoming postdoc in spatial omics. Selected on 2026-09-25 after [[postdoc-hiring-2026]], accepted on 2026-10-09, starts on 2027-01-11. Until then he is finishing a postdoc at another institute, so this note has no group affiliation yet; it will move under [[lead-tumour-evolution-group]] when he starts.
+
+## Background Relevant To Us
+
+- Spatial transcriptomics on tumour sections, including copy-number and clonal inference from spatial data; has also integrated it with multiplexed protein imaging.
+- Ran the analysis for a multi-site spatial study, including batch handling across sites, which is the part of the atlas we find hardest.
+- Comfortable in Python and Nextflow; less experience with Slurm clusters that forbid Docker, which onboarding will cover.
+
+## Planned Role
+
+- Work on the [[colorectal-metastasis-atlas]] with [[amara-okonkwo]]: clone tracking across the 40 pre- and post-chemotherapy pairs, using spatial copy-number inference. The first three months are set out in [[owen-atlas-onboarding-plan]].
+- Second maintainer of the spatial pipeline once v1.0 is out, alongside [[kenji-mori]] ([[spatial-pipeline-repository]]).
+- Mentoring pair: Amara as buddy for the first three months.
+
+## Why He Was Chosen
+
+The panel's reasons are in [[owen-mcallister-offer-2026-09-25]]. In short: the atlas needs someone to follow tumour clones between paired pre- and post-chemotherapy samples and to handle differences between sequencing batches, and Owen had done both in a multi-site study. His talk was frank about what went wrong in that study, which the panel valued ([[hire-for-collaboration-over-pedigree]]). The runner-up, [[mateo-silva]], was stronger on deconvolution methods, an area the group already covers through [[kenji-mori]].
+
+## Before He Starts
+
+- Halyard account and GPU partition membership requested by [[tobias-wren]] for early January ([[request-halyard-gpu-time]]).
+- Data access to atlas data through [[yara-castellanos]].
+- First-week plan from [[onboard-a-new-lab-member]], owned by [[priya-raman]].
+- Owen asked for the [[deconvolution-benchmark]] preprint draft to read in advance; Kenji will send it in December.
+
+Contact goes through Ines until the start date. When he starts, this note moves under [[lead-tumour-evolution-group]] with a `belongs_to`, and his first lab meeting slot on 2027-01-21 is already in the [[lab-meeting-rota-2026]].

@@ -1,0 +1,55 @@
+---
+type: Responsibility
+status: Active
+related_to:
+  - "[[cfdna-fragmentomics]]"
+  - "[[minimal-residual-disease]]"
+  - "[[maximilian-auer]]"
+has:
+  - "[[halo-cross-site-benchmark]]"
+  - "[[federated-cfdna-learning]]"
+  - "[[halo-truth-set]]"
+  - "[[halo-site-and-assay-overview]]"
+_organized: true
+---
+
+# Halo Consortium Work
+
+Our part in Halo, a six-site consortium that compares cell-free DNA assays for residual disease and early detection. Ines leads Work Package 4 (analysis), which means we own the statistical analysis plan, the cross-site benchmark analysis and the shared analysis code. The commitment runs as long as the consortium does, so it is a Responsibility rather than a Project.
+
+## Scope
+
+- Work Package 4 deliverables: analysis plan, benchmark analysis, harmonised feature definitions, reporting to the steering committee.
+- Our site duties as one of the six assay sites: sequencing our share of the [[halo-truth-set]] with the Corvane shallow-WGS fragmentomics assay and returning data on time.
+- Relations with the coordinating centre at Brightwater University Hospital ([[maximilian-auer]], [[ngozi-adeyemi]], [[eva-novak]]) and the other site PIs.
+- Not here: the MRD study itself ([[pancreatic-cfdna-mrd-study]]), and the institute policy work, which sits under [[serve-corvane-institute]] in [[data-access-policy-revision]]. Halo creates demand for that policy; it does not own it.
+
+## Current State
+
+- Six sites, six assays; see [[halo-site-and-assay-overview]]. The consortium agreement runs to 2028-12-31 ([[halo-consortium-agreement-summary]]).
+- The truth set was shipped on 2026-05-19 ([[halo-truth-set-shipment-2026-05-19]]); five of six sites had returned data by the end of September, Kelstow is late.
+- We cannot yet send pseudonymised outputs to the Brightwater data hub or receive linked clinical outcomes, and Corvane has not signed the [[halo-data-sharing-agreement-template]]. The current Corvane policy only allows bilateral transfers; the consortium clause is multilateral. The [[data-governance-board-2026-09-10]] discussed the clause but did not adopt it; it returns to the board on 2026-11-12.
+- That block also stops the external validation that Reviewer 2 asked for on the [[mrd-manuscript]]; see [[halo-data-flow-and-transfer-constraints]].
+- [[leila-farouk]], a PhD student from the Thornvale University site, is visiting until December and works with [[sofia-reyes-calderon]] on the classifier.
+
+## Active Projects and Workflows
+
+- [[halo-cross-site-benchmark]]: the main WP4 deliverable, active.
+- [[federated-cfdna-learning]]: Idea stage, a proposal for training and evaluating models without moving data.
+- [[halo-annual-meeting-2026]]: completed, hosted at Corvane on 2026-06-10/12.
+- Steering committee every three to four months, chaired by [[henrik-dahl]]; WP4 call on the second Thursday of each month. Rhythm and contacts in [[halo-working-rhythm-and-contacts]].
+
+## Next Actions
+
+- [ ] Deliver the WP4 interim benchmark report on the contrived tier to the steering committee before the end of November.
+- [ ] Agree with [[victor-lindahl]] and [[eva-novak]] what the revised Corvane policy must say for the consortium clause to work, and feed it into [[data-access-policy-revision]].
+- [ ] Turn the federated idea into a costed concept note for the next steering committee.
+- [ ] Settle the derived-model ownership question before any model leaves a site ([[who-owns-models-trained-on-halo-data]]).
+
+## Maintenance Log
+
+- 2026-10-08: WP4 call; patient-tier analysis held until transfer is allowed ([[halo-wp4-analysis-call-2026-10-08]]).
+- 2026-09-17: Steering committee hears the board outcome; federated route opened as an Idea ([[halo-steering-committee-2026-09-17]]).
+- 2026-06-12: Annual meeting at Corvane closed.
+- 2026-01-19: Cross-site benchmark started.
+- 2025-03-18: Consortium kick-off; Ines confirmed as WP4 lead.

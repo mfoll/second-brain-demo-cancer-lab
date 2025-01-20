@@ -1,0 +1,35 @@
+---
+type: Person
+related_to:
+  - "[[tumour-evolution-symposium-2026]]"
+  - "[[tumour-evolution]]"
+  - "[[symposium-keynote-confirmed-2026-04-21]]"
+_organized: true
+---
+
+# Katarina Vukovic
+
+Keynote speaker at the [[tumour-evolution-symposium-2026|Tumour Evolution Symposium 2026]]. A senior researcher in mathematical models of cancer evolution, known in the field for work on how selection and spatial constraint shape subclonal expansions. External contact, no affiliation hub here.
+
+## Role For Us
+
+Opening keynote on 2026-11-19, 50 minutes plus questions, provisional title "Reading selection from a single snapshot". The keynote is the only part of the symposium that is streamed ([[should-the-symposium-be-hybrid]]).
+
+## How It Came About
+
+Ines and [[oluwaseun-adebayo]] put three names on the shortlist on 2026-02-18. Katarina was the first choice because her talk bridges the modelling side and the data-heavy sessions; she accepted on 2026-04-21 after Ines offered a date change from the original November 12 ([[symposium-keynote-confirmed-2026-04-21]]). Her travel and two nights' accommodation are covered from the symposium budget ([[symposium-budget-sheet]]).
+
+## Working Notes
+
+- She asked for a pre-meeting dinner with early-career speakers rather than the organising committee; [[priya-raman]] booked it for 2026-11-18.
+- Slides will be shared after the meeting only if she approves each figure; unpublished results will be removed.
+- She asked to see the abstracts of the short talks in her session to refer to them; sent on 2026-10-09.
+- Ines read recent modelling papers around her theme while preparing the session introduction, for example [[coggan-2026-agent-based-lung-tumour-evolution]] and [[weiner-2025-sistem-tumour-evolution-simulation]]. These are context for the introduction, not her work.
+
+## Possible Future Contact
+
+Ines would like to ask her, after the symposium, whether the lead-time windows in the Northvale study ([[lead-time-analysis]]) can be read as evolutionary timing at all. Nothing asked yet.
+
+## Session Introduction Plan
+
+Ines introduces the keynote in about three minutes: why a symposium that runs from pre-diagnostic blood samples to metastases needs a modelling talk first, and one slide on how model assumptions change inferred selection ([[coggan-2026-agent-based-lung-tumour-evolution]]). Katarina saw the outline on 2026-10-09 and asked only that her provisional title be kept.

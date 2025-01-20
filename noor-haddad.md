@@ -1,0 +1,32 @@
+---
+type: Person
+belongs_to: "[[lead-tumour-evolution-group]]"
+related_to:
+  - "[[summer-internships-2026]]"
+  - "[[hannah-lindqvist]]"
+  - "[[clonal-hematopoiesis-filter]]"
+_organized: true
+---
+
+# Noor Haddad
+
+MSc intern in the group from 2026-06-01 to 2026-08-28, from a bioinformatics master's programme. Former member; may apply for a PhD position in 2027.
+
+## Role
+
+Noor worked on a panel-of-normals approach to filtering clonal hematopoiesis variants from cfDNA calls without matched buffy coat sequencing ([[intern-project-panel-of-normals-ch]]). Daily supervisor [[hannah-lindqvist]], second contact [[dmitri-halvorsen]], formal supervisor Ines.
+
+## Work Done
+
+- Built a panel of normals from 96 healthy-donor buffy coat samples already sequenced on the methylation panel, and a script that flags cfDNA variants seen in the panel or in known CH genes.
+- Compared it with matched buffy coat filtering on 40 St Aldric patients where both were available. Her talk at the [[intern-final-talks-2026-08-26]] showed the panel removed most of the CH variants that matched buffy coat removes, but missed several private DNMT3A and TET2 clones. Hannah is checking these numbers before anything is quoted outside the group.
+- Code and report handed over on 2026-08-27, with tests that Tobias reviewed.
+
+## How We Worked Together
+
+Noor asked good questions early and kept a daily log in the group's notebook, which made the handover easy. She was quiet in lab meetings at first; Hannah paired her with [[kofi-mensah]] for practice talks, which helped.
+
+## Current Threads
+
+- Hannah continues the panel-of-normals work inside [[clonal-hematopoiesis-filter]]; the question of whether matched buffy coat is still needed remains open there.
+- Ines agreed to write a reference letter for PhD applications in early 2027.

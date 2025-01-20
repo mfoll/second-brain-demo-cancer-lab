@@ -1,0 +1,37 @@
+---
+type: Person
+belongs_to: "[[halo-consortium-work]]"
+related_to:
+  - "[[maximilian-auer]]"
+  - "[[halo-steering-committee-2026-09-17]]"
+_organized: true
+---
+
+# Henrik Dahl
+
+Chair of the Halo steering committee, a senior clinician-scientist at Westmere Cancer Centre who is not a site PI. The consortium chose an independent chair on purpose so that disputes between sites, about authorship, budget or assay comparisons, are refereed by someone without an assay in the race.
+
+## Role
+
+- Chairs the steering committee, which meets every three to four months and decides on anything that changes the work plan, budget or data rules ([[halo-consortium-agreement-summary]]).
+- Signs off WP reports before they go to the funder.
+- Chaired the plenaries of the [[halo-annual-meeting-2026]] at Corvane.
+
+## How We Work Together
+
+Henrik runs a tight meeting: papers out a week ahead, decisions recorded as decisions, no reopening of settled items without new facts. He is sympathetic to WP4 and to Corvane but treats the data-transfer block as Corvane's problem to solve. At the [[halo-steering-committee-2026-09-17]] he set a clear condition: the patient tier is analysed by a site only once that site's rules permit it, and the benchmark paper will not wait indefinitely. If Corvane cannot receive data by mid-2027, WP4 analysis of the patient tier moves to Brightwater, with Ines leading it remotely.
+
+## Current Threads
+
+- Timeline for the consortium paper.
+- Whether the federated proposal belongs in the current work plan or an amendment ([[federated-cfdna-learning]]).
+- Authorship rules, drafted by [[maximilian-auer]].
+
+## History With The Group
+
+Henrik has no previous collaboration with Corvane. Ines briefed him personally before the [[halo-steering-committee-2026-09-17]] so that the board outcome did not reach him first through the agenda papers; he appreciated that and said so in the meeting. He also chaired the closed steering committee session on day three of the [[halo-annual-meeting-2026-06-10]], which agreed the 2026-09-30 upload deadline.
+
+## Links
+
+- [[halo-consortium-work]]
+- [[halo-steering-committee-2025-11-20]], [[halo-steering-committee-2026-02-26]]

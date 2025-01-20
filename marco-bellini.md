@@ -1,0 +1,34 @@
+---
+type: Person
+related_to:
+  - "[[deconvolution-benchmark]]"
+  - "[[kenji-mori]]"
+_organized: true
+---
+
+# Marco Bellini
+
+External researcher who develops a reference-based spatial deconvolution method; it is one of the seven in our [[deconvolution-benchmark]] and one of the two that collapse low-count spots onto the most abundant cell type ([[low-count-spot-collapse]]). No affiliation hub in this vault, so this note has no `belongs_to`.
+
+## Relationship
+
+- First contact by email from [[kenji-mori]] on 2026-04-28 with a reproducible example. Marco replied within a week and proposed a call.
+- On the call ([[marco-bellini-call-2026-05-21]]) he confirmed the mechanism: when the likelihood is nearly flat at low counts, the method's default prior on cell-type abundance dominates, and the output confidence is computed after the prior is applied. He plans a warning flag and a minimum-count option in his next release.
+- He asked to see the preprint draft before posting and agreed to be named. He did not ask us to soften the result.
+
+## How to Work With Him
+
+Constructive and quick; prefers concrete examples to general criticism. Keep him informed of the preprint timeline and send the draft two weeks before posting, as agreed. If his release lands before the preprint, rerun his method with the new option and report both versions.
+
+## Links
+
+- [[how-to-report-failing-methods-in-the-benchmark]]
+- [[benchmarks-must-report-failure-modes]]
+
+## Background
+
+Marco's method is widely used for standard Visium data and was among the best performers above 100 UMIs per spot in our benchmark ([[deconvolution-method-comparison-table]]). The low-count behaviour only appeared when results were split by depth. His response is the model case for the stance in [[benchmarks-must-report-failure-modes]]: tell the developer first, with a reproducible example, and give them a chance to respond in the paper. A possible follow-up is a joint note on count thresholds for Visium HD; not discussed yet.
+
+## Boundaries
+
+Marco is a peer, not a collaborator on the benchmark. He sees the draft sections about his method before posting but has no say over our conclusions, and he is not a co-author. Keep correspondence with him in the benchmark folder so the contact history is available to reviewers if asked.
