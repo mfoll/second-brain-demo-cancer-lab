@@ -1,0 +1,83 @@
+---
+type: Project
+status: Active
+start: 2025-04-01
+belongs_to: "[[pancreatic-cfdna-mrd-study]]"
+has:
+  - "[[fragment-length-and-end-motif-features]]"
+  - "[[classifier-design-review-2026-04-02]]"
+  - "[[classifier-model-card-v2]]"
+  - "[[fragmentomics-classifier-retraining]]"
+related_to:
+  - "[[cfdna-fragmentomics]]"
+  - "[[sofia-reyes-calderon]]"
+  - "[[lab-meeting-2026-03-12]]"
+_organized: true
+---
+
+# Fragmentomics Classifier
+
+A plasma classifier that scores each post-operative St Aldric sample for residual pancreatic cancer from fragment-length and end-motif features of shallow whole-genome sequencing. It is the core of [[sofia-reyes-calderon|Sofia Reyes Calderon]]'s PhD and the fragmentomics layer of the [[pancreatic-cfdna-mrd-study|Pancreatic cfDNA MRD Study]].
+
+## Outcome
+
+A locked classifier (frozen code, weights and thresholds, with a model card) built from fragment-length and end-motif features, then validated once on Halo samples that played no part in training or tuning.
+
+## Current State
+
+- The current model is **stacked**: L2-regularised logistic regression on fragment-length features corrected with lot-bridging samples, gradient boosting kept for end-motif features, and a logistic meta-learner combining the two scores. Specification: [[classifier-model-card-v2]].
+- History of the decision: the [[lab-meeting-2026-03-12|lab meeting of 2026-03-12]] decided to replace gradient boosting with regularised logistic regression because the boosted model overfitted St Aldric extraction batches. The [[classifier-design-review-2026-04-02|review of 2026-04-02]] partly reversed that: the overfitting came from fragment-length features, while the end-motif component held up under leave-batch-out testing, so gradient boosting stays for end motifs only.
+- Leave-batch-out AUC: gradient boosting alone 0.74, logistic alone 0.83, stacked 0.86 ([[classifier-stacking-evaluation-2026-04]]). Within-batch cross-validation had flattered the boosted model at 0.91.
+- Not yet locked. Model card v3 must be frozen before any Halo sample is scored; that validation depends on [[halo-cross-site-benchmark]] and the [[data-access-policy-revision]].
+
+## Scope and Boundaries
+
+Covers feature extraction, model training, evaluation and locking. Variant-based and methylation-based calls belong to the umbrella study; the CH filter is its own project ([[clonal-hematopoiesis-filter]]). The classifier is a research tool, not a clinical assay.
+
+## Working Context
+
+Features come from about 5x shallow WGS of the same extracts used for the methylation panel. Two families are used ([[fragment-length-and-end-motif-features]]): 2 bp fragment-length bins from 90 to 220 bp plus short-to-long ratios in 5 Mb windows, and the frequencies of the 256 4-mer end motifs with a motif diversity score. Feature generation now runs through FinaleToolkit ([[finaletoolkit-repository]]), adopted in 2026-01 because it cut the per-sample runtime from about 40 to 6 minutes on Halyard.
+
+The batch problem: Elias's extraction kit lot changed on 2025-06-16 ([[extraction-kit-lot-change-2025-06-16]]). Most pre-operative samples were extracted before the change and most follow-up samples after it, so batch and label were confounded. The new lot shifted the modal fragment length by about 3 bp and slightly raised the short-fragment fraction, which a boosted model on length bins happily learned. End motifs barely moved. See [[batch-confounding-in-cfdna-studies]] and [[classifier-batch-effect-analysis-2026-03]].
+
+The superseded plan, a gradient-boosting-only model on all features, is kept for provenance in [[gradient-boosting-only-classifier-plan]].
+
+## Active Workflows
+
+- [[fragmentomics-classifier-retraining]]: every retraining runs leave-batch-out evaluation and updates the model card.
+- Weekly check-in between Sofia and [[dmitri-halvorsen|Dmitri]], Thursdays.
+- Feature matrix versions are tracked in [[fragmentomics-feature-matrix-v5]].
+
+## Do Not Do Yet
+
+> [!danger]
+> Do not tune, recalibrate or even score with the classifier on any Halo sample until model card v3 is frozen and committed; the only permitted step on external material is the pre-specified length correction on the truth set's healthy-donor plasma.
+
+## Next Actions
+
+- [ ] Freeze model card v3 (weights, thresholds at 95% specificity, code commit) before external data are touched.
+- [ ] Finish the feature ablation write-up ([[classifier-feature-ablation-results]]) for the revision supplement.
+- [ ] Agree with [[arjun-mehta|Arjun Mehta]] how Halo sites will run the frozen model if raw data cannot move.
+- [ ] Present the stacked design at Sofia's second-year committee ([[sofia-thesis-committee]]).
+
+## Open Questions
+
+- [[does-the-stacked-classifier-generalise-across-extraction-batches]]
+- [[can-halo-samples-serve-as-external-validation]]
+- [[should-the-mrd-call-combine-methylation-and-fragmentomics]]
+
+## Important Notes
+
+- [[classifier-design-review-2026-04-02]]
+- [[classifier-model-card-v2]]
+- [[fragment-length-and-end-motif-features]]
+- [[model-stacking]]
+- [[external-validation-before-locking-a-classifier]]
+
+## Maintenance Log
+
+- 2026-04-02: Stacked design adopted; gradient boosting kept for end motifs only.
+- 2026-03-12: Lab meeting decides to drop gradient boosting after the batch analysis.
+- 2026-01-19: Feature extraction moved to FinaleToolkit.
+- 2025-11-20: First full gradient-boosting model trained on all St Aldric samples.
+- 2025-04-01: Project started with Sofia.
