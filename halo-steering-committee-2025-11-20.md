@@ -1,0 +1,25 @@
+---
+type: Event
+date: 2025-11-20
+belongs_to: "[[halo-consortium-work]]"
+related_to:
+  - "[[henrik-dahl]]"
+  - "[[halo-truth-set-draft-plan-2025]]"
+  - "[[sun-hee-park]]"
+_organized: true
+---
+
+# Halo Steering Committee 2025-11-20
+
+Third Halo steering committee, online, chaired by [[henrik-dahl]]. All six site PIs present; Ines attended for Corvane and WP4. Minutes in [[halo-steering-committee-minutes-2025-11-20]].
+
+## Decisions
+
+- The draft truth-set plan, which used contrived reference material only, was not approved ([[halo-truth-set-draft-plan-2025]]). [[sun-hee-park]] argued, and the committee agreed, that a benchmark without patient plasma could not say anything about recurrence detection. WP3 and WP4 were asked to add a patient tier and a healthy-donor tier.
+- Brightwater and Westmere agreed to contribute post-surgery plasma with follow-up, subject to their ethics committees.
+- Corvane and Thornvale will define fragment-length and end-motif features jointly rather than separately ([[fragment-length-and-end-motif-features]]).
+- Corvane offered to host the 2026 annual meeting; accepted ([[halo-annual-meeting-2026]]).
+
+## Follow-up
+
+Design v2 was written over December and January ([[halo-truth-set-design-document]]) and the [[halo-cross-site-benchmark]] project started on 2026-01-19.
