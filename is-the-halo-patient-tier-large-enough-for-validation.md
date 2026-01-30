@@ -1,0 +1,30 @@
+---
+type: Question
+status: Open
+belongs_to: "[[halo-cross-site-benchmark]]"
+related_to:
+  - "[[mrd-manuscript]]"
+  - "[[halo-truth-set]]"
+  - "[[isabel-montes]]"
+_organized: true
+---
+
+# Is The Halo Patient Tier Large Enough For Validation?
+
+## Why It Matters
+
+The patient tier of the [[halo-truth-set]] is the planned external validation for the [[mrd-manuscript]]. Reviewer 2 asked for external validation; if the set is too small to say anything, clearing the data-access block will not be enough.
+
+## What We Know
+
+- 60 patients, of whom 30 are post-resection pancreatic cancer, the population of our St Aldric study. Recurrence in 23 of 60 overall at the 2026-03-31 cut; the pancreatic split is still blinded, but recurrence is expected to be more common there.
+- With about 12 to 15 pancreatic recurrences, a 95% interval on sensitivity is roughly plus or minus 25 percentage points. Specificity, estimated on non-recurrent patients plus 20 healthy donors, is better constrained.
+- Each site gets about 0.65 mL plasma per patient, less than our St Aldric protocol uses, which lowers sensitivity at low tumour fraction for any assay.
+
+## Current Answer
+
+Provisional: on its own, no. The patient tier can show that the locked classifier is calibrated across sites and detects recurrence better than chance outside St Aldric, but it cannot confirm the St Aldric sensitivity estimate. That is why the request of 2026-08-04 ([[halo-validation-request-2026-08-04]]) adds about 150 post-resection pancreatic patients from two sites' own cohorts, with the truth set used for cross-site calibration. [[isabel-montes]] and [[sun-hee-park]] agree with this split. Both parts depend on the same transfer clause.
+
+## What Would Settle It
+
+A pre-specified validation analysis with the interval width stated before unblinding, and the editor's view on whether a directional validation answers Reviewer 2. The 2027-03-31 follow-up cut adds events but not patients.
