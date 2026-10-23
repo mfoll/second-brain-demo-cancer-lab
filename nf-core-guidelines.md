@@ -1,7 +1,7 @@
 ---
 type: Source
 source_type: Web page
-url: https://nf-co.re/docs/guidelines
+url: https://nf-co.re/docs/guidelines/pipelines/overview
 date_accessed: 2025-10-13
 belongs_to: "[[nextflow-pipeline-migration]]"
 related_to:
@@ -33,4 +33,4 @@ The guidelines change; check the live page rather than this summary before relyi
 
 ## Source Links
 
-- [nf-core guidelines](https://nf-co.re/docs/guidelines)
+- [nf-core guidelines](https://nf-co.re/docs/guidelines/pipelines/overview)
