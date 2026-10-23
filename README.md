@@ -34,7 +34,7 @@ The vault was deployed from the [Second Brain template](https://github.com/mfoll
 - **[Brain Graph](https://github.com/mfoll/brain-graph).** See the whole vault as a map coloured by project:
 
   ```bash
-  npx github:mfoll/brain-graph path/to/second-brain-demo
+  npx github:mfoll/brain-graph path/to/second-brain-demo-cancer-lab
   ```
 
 - **A coding agent.** Run Claude Code, Codex or Gemini CLI in the folder. They read [[AGENTS]] (through `CLAUDE.md` and `GEMINI.md` where needed) and follow the vault's Procedures.
