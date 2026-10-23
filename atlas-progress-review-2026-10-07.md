@@ -1,0 +1,33 @@
+---
+type: Event
+date: 2026-10-07
+belongs_to: "[[colorectal-metastasis-atlas]]"
+related_to:
+  - "[[amara-okonkwo]]"
+  - "[[halyard-cluster]]"
+  - "[[owen-mcallister]]"
+  - "[[kenji-mori]]"
+_organized: true
+---
+
+# Atlas Progress Review 2026-10-07
+
+Half-day review of the [[colorectal-metastasis-atlas]] with [[amara-okonkwo]], [[kenji-mori]], [[benedikt-kraus]], [[tobias-wren]] and Ines, two weeks after the Halyard GPU partition was granted.
+
+## State
+
+- Sequenced: 26 of 40 pairs (batches 1 and 2). Batch 3 (14 pairs) sectioned and QC-passed; sequencing slot booked for November ([[atlas-sequencing-batch-plan]]).
+- Pipeline: the Nextflow spatial pipeline runs end to end on Halyard since 2026-09-22 ([[halyard-cluster]]). Nucleus segmentation for 52 sections took four days on GPU against an estimated five weeks on Kestrel CPU nodes. Kestrel retired on 2026-09-30, so the grant arrived just in time.
+- Regression grade in the 26 pairs: 7 major, 12 partial, 7 minimal or no response ([[tumour-regression-grade]]).
+- Deconvolution: still on hold pending the benchmark recommendation.
+
+## Decisions
+
+- Freeze the analysis set after batch 3, target end of January 2027.
+- [[owen-mcallister]] starts on 2027-01-11 and takes the clone-tracking analysis, starting with virtual-core sampling for the biopsy question ([[owen-atlas-onboarding-plan]], [[are-pre-chemo-core-biopsies-representative]]).
+- Kenji's preprint goes first; the atlas uses his recommended method with low-count flagging.
+- The atlas paper figure plan goes into the 2027 research plan from the [[group-retreat-2026]].
+
+## Risks Noted
+
+Sequencer capacity in November competes with the Halo samples; [[rafael-ibarrondo]] confirmed the slot in writing. Owen's start relies on the analysis set being frozen, or he begins on pilot data.

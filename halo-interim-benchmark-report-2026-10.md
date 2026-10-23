@@ -1,0 +1,37 @@
+---
+type: Source
+source_type: Internal report
+date_accessed: 2026-10-06
+belongs_to: "[[halo-cross-site-benchmark]]"
+related_to:
+  - "[[limit-of-blank-and-limit-of-detection]]"
+  - "[[benchmarks-must-report-failure-modes]]"
+  - "[[sun-hee-park]]"
+  - "[[halo-truth-set]]"
+_organized: true
+---
+
+# Halo Interim Benchmark Report 2026-10
+
+Draft WP4 interim report on the contrived tier of the [[halo-truth-set]], five of six sites (Kelstow pending), dated 2026-10-06 and discussed at the [[halo-wp4-analysis-call-2026-10-08]]. Patient and donor tiers not analysed.
+
+## Summary
+
+Every assay that targets mutations finds 1% VAF reliably. Below 0.5% the assays separate clearly, and the separation follows DNA input and error suppression more than anything else. The two fragmentomics assays are not evaluable on contrived material, and the report says so with evidence instead of leaving blank cells.
+
+## Key Details
+
+- Detection at 0.1% VAF (4 replicates): Westmere hybrid capture 3 of 4; Brightwater tumour-informed panel 3 of 4; Hollinmoor (methylation assay, mutation targets not designed) not scored; Corvane and Thornvale not evaluable.
+- Detection at 0.25%: Westmere 4 of 4, Brightwater 4 of 4.
+- Limit of blank: zero false positives across the 0% samples for Brightwater; two at Westmere, both at one hotspot with a known sequencing artefact.
+- Methylation fractions: Hollinmoor recovers nominal fractions within 2 percentage points down to 1%; Corvane's shallow-WGS methylation proxy is not designed for this and is not scored.
+- Sheared versus nucleosomal DNA at 1%: mutation assays agree within 0.2 percentage points; fragmentomics assays diverge strongly, as in the pilot ([[halo-pilot-panel-results-2026-04]]).
+- With four replicates the 95% interval on a 4 of 4 detection rate runs from about 40% to 100%. The report states limits of detection as ranges, not points ([[limit-of-blank-and-limit-of-detection]]).
+
+## Caveats
+
+Interim and unpublished; numbers will change once Kelstow reports. Not for citation outside the consortium. The patient tier will matter more for every clinical claim ([[reference-materials-cannot-replace-patient-plasma]]).
+
+## Source Location
+
+WP4 folder at the Brightwater hub, `wp4/reports/interim-contrived-2026-10-draft.pdf`.
