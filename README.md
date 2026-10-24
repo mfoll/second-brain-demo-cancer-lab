@@ -12,6 +12,8 @@ A demo Second Brain: about 800 linked Markdown notes holding the working memory 
 
 ![Varga Lab Brain in Brain Graph, coloured by the Project or Responsibility each note rolls up to](assets/varga-lab-brain-graph.png)
 
+**[Explore this vault in the live demo](https://mfoll.github.io/brain-graph-demo/?vault=varga-lab-brain)**: its map in Brain Graph, in your browser, with nothing to install.
+
 > [!warning]
 > Everything about the lab is fictional: the Corvane Institute, every person, the cohort, registry, hospitals, consortium, funders, journals, studies and results. Any resemblance to real people or organisations is accidental. Only the literature Sources marked as scientific papers are real.
 
